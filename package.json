@@ -1,11 +1,11 @@
 {
-  "name": "swagger-repo",
-  "version": "1.4.2",
-  "description": "CLI tool to help you manage your OpenAPI(fka Swagger) repo.",
+  "name": "swagger-repo-json",
+  "version": "1.0.0",
+  "description": "JSON fork of swagger-repo to support JSON spec files in place of yaml.",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Rebilly/swagger-repo.git"
+    "url": "https://github.com/stperona/swagger-repo-json"
   },
   "keywords": [
     "API",
@@ -17,11 +17,11 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Rebilly/swagger-repo/issues"
+    "url": "https://github.com/stperona/swagger-repo-json/issues"
   },
-  "homepage": "https://github.com/Rebilly/swagger-repo",
+  "homepage": "https://github.com/stperona/swagger-repo-json",
   "bin": {
-    "swagger-repo": "./bin/swagger-repo.js"
+    "swagger-repo-json": "./bin/swagger-repo-json.js"
   },
   "dependencies": {
     "body-parser": "^1.15.2",
